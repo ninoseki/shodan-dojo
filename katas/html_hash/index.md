@@ -55,6 +55,16 @@ $ curl example.com
 ## Hints
 
 - Shodan uses MuarmurHash3 as a hashing function.
+- You can use `http.html_hash` filter.
+  - http.html_hash: MuarmurHash3 hash value
+  - e.g.
+    - `http.html_hash:809425345` ("sinkehole\n")
+- MuarmurHash3 libraries:
+  - Go https://github.com/DataDog/mmh3
+  - JS: https://www.npmjs.com/package/murmurhash3js
+  - Python: https://pypi.org/project/mmh3/
+  - Ruby: https://rubygems.org/gems/mmh3/
+  - etc.
 
 ---
 

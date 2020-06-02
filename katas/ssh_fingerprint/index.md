@@ -9,7 +9,12 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDS4ZCRAuR7Gr0SS2B3XR3IYLcwrCVTSu9nzEDIBHxk
 ## Hints
 
 - There is no suitable filter to solve this exercise, but you can use free-text search.
+- You can make a free-text search when not specifying a filter.
 - The host uses default SSH port. (TCP/22)
+- You can combine multiple filters and free-text search.
+  - e.g.
+    - `port:22 country:jp`
+    - `port:81 sinkehole`
 
 ---
 
