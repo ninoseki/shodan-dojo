@@ -15,6 +15,9 @@ Unfortunately still you can find them on the Internet.
 
 - There is no need to use a filter.
 - You can make a free-text search when not specifying a filter.
+  - e.g.
+    - ["X-Recruiting"](https://www.shodan.io/search?query=%22X-Recruiting%22)
+    - ["X-Hacker"](https://www.shodan.io/search?query=%22X-Hacker%22)
 
 ---
 
