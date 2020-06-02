@@ -11,6 +11,11 @@ The compromised routers were changed its hostname to `HACKED-ROUTER-HELP-SOS-DEF
 
 Unfortunately still you can find them on the Internet.
 
+## Hints
+
+- There is no need to use a filter.
+- You can make a free-text search when not specifying a filter.
+
 ---
 
 - [Answer](./answer.md)
