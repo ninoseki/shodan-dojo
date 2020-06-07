@@ -20,4 +20,5 @@ Please read the following docs before starting the katas.
 ## Advanced katas
 
 - [FakeSpy](./katas/fakespy/index.md)
+- [FuelPHP Profiler](./katas/fuelphp_profiler/index.md)
 - [GhostDNS](./katas/ghostdns/index.md)
