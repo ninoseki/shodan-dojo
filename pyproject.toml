@@ -21,6 +21,14 @@ mypy = "^0.770"
 flake8 = "^3.8.2"
 pre-commit = "^2.4.0"
 
+[tool.isort]
+force_grid_wrap = 0
+include_trailing_comma = true
+known_third_party = ["cryptography", "mmh3", "requests", "sshpubkeys"]
+line_length = 88
+multi_line_output = 3
+use_parentheses= true
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
