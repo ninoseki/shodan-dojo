@@ -51,6 +51,18 @@ So the answer is [ssl.cert.serial:00f71a27587a4cc55e](https://www.shodan.io/sear
 
 ![](https://i.imgur.com/5mCCE2p.png)
 
+## Kata #3
+
+Apparently the certificate of `https://www.waseda.jp` uses `www.waseda.jp` common name.
+
+![](https://i.imgur.com/U3pueYx.png)
+
+You can use `ssl.cert.subject.cn` filter for filtering results by a common name of the SSL certificate.
+
+So the answer is [ssl.cert.subject.cn:www.waseda.jp](https://www.shodan.io/search?query=ssl.cert.subject.cn%3Awww.waseda.jp).
+
+![](https://i.imgur.com/aKu9TtO.png)
+
 ## Misc
 
 The first answer uses integer value with `ssl.cert.serial` filter. The second answer uses [DER](https://wiki.openssl.org/index.php/DER) encoded value. You can use both values with the filter.
